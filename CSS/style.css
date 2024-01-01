@@ -184,7 +184,7 @@ button.white{
     height: 90vh;
     width: 100%;
     /* background: linear-gradient(rgba(240, 244, 246, 0.5), rgba(67, 68, 68, 0.5)), url("/Images/slider/banner1.avif") no-repeat center center; */
-    background: url("/Images/slider/banner1.avif") no-repeat center center;
+    background: url("/Images/slider/banner1.jpg") no-repeat center center;
     background-size: cover;
     background-position: top 5% right 0;
     padding: 0 80px;
@@ -391,7 +391,7 @@ button.white{
         justify-content: center;
         align-items: center;
         text-align: center;
-        background: url("/Images/banner/offer.avif") no-repeat center center;
+        background: url("/Images/banner/offer.jpg") no-repeat center center;
         background-size: cover;
         background-position:center;
         width: 100%;
