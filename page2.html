@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+
+    <!-- Fonts Awesome Link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <!-- Main CSS File  -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- <link rel="stylesheet" href="CSS/shop.css"> -->
+
+    <!-- Favicon File  -->
+    <link rel="apple-touch-icon" sizes="57x57" href="Images/Fevicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="Images/Fevicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="Images/Fevicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="Images/Fevicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="Images/Fevicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="Images/Fevicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="Images/Fevicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="Images/Fevicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/Fevicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="Images/Fevicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/Fevicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="Images/Fevicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/Fevicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<!-- ==================================== Header Section ====================================  -->
+
+    <section id="header">
+     
+        <h3 class="logo">Mensmart.com</h3>
+   
+
+        <nav>
+            <ul id="navbar">
+                <li>
+                    <a href="index.html" class=" navbar-link">Home</a> 
+                </li>
+                <li>
+                    <a href="shop.html" class="active navbar-link">Shop</a>
+                </li>
+                <li>
+                    <a href="blog.html" class="navbar-link">Blog</a>
+                </li>
+                <li>
+                    <a href="about.html" class="navbar-link">About</a>
+                </li>
+                <li>
+                    <a href="contact.html" class="navbar-link">Contact</a>
+                </li>
+                <li>
+                    <a id="lg-cart-icon" href="cart.html"><i class="fa-solid fa-cart-shopping  navbar-link"></i></a>
+                </li>
+            </ul>
+        </nav>
+
+        
+        <div id="mobile">
+           
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping cart-icon"></i></a>
+            
+            <i id="bar" class="fas fa-outdent mobile-icon"></i>
+            <i id="corss" class="fa-solid fa-square-xmark mobile-icon"></i>
+        </div>
+
+    </section> 
+
+  
+
+<!-- ==================================== Shop Slider Section ==================================== 
+    <section id="shop">
+        <h2 style="text-align:center">Upcomming Collection</h2>
+
+        <div class="container">
+            <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img src="Images/Shop/slider/1.jpg" style="width:100%" class="big_img">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img src="Images/Shop/slider/2.jpg" style="width:100%" class="big_img">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img src="Images/Shop/slider/3.avif" style="width:100%" class="big_img" >
+            </div>
+                
+            <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img src="Images/Shop/slider/4.jpeg" style="width:100%" class="big_img">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img src="Images/Shop/slider/5.avif" style="width:100%" class="big_img">
+            </div>
+                
+            <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <img src="Images/Shop/slider/6.avif" style="width:100%" class="big_img">
+            </div>
+                
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+            <div class="caption-container">
+                <p id="caption">Our New Upcomming Collection</p>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="Images/Shop/slider/1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Season Sale">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Images/Shop/slider/2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Urban Fashion">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Images/Shop/slider/3.avif" style="width:100%" onclick="currentSlide(3)" alt="Latest Fashion">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Images/Shop/slider/4.jpeg" style="width:100%" onclick="currentSlide(4)" alt="Mens Jacket">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="Images/Shop/slider/5.avif" style="width:100%" onclick="currentSlide(5)" alt="New Fashion">
+                </div>    
+                <div class="column">
+                    <img class="demo cursor" src="Images/Shop/slider/6.avif" style="width:100%" onclick="currentSlide(6)" alt="New Choics of Mens">
+                </div>
+            </div>
+        </div>
+
+    </section> -->
+
+
+<!-- ====================================  Product Section ====================================  -->
+
+    <section id="product1" class="section-p1">
+        <div class="pro-container">
+
+            <!-------------------------------------- Product1  ----------------------------->
+
+            <div class="pro">
+                <img src="Images/Shop/products/b1.jpg" alt="" height="">
+                <div class="des">
+                    <span>Coton King</span>
+                    <h5>Mens Formal Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                       
+                    </div>
+                    <h4>$86</h4>   
+                </div>
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping cart"></i>
+                </a>
+            </div>
+
+            <!-------------------------------------- Product 2  ----------------------------->
+
+            <div class="pro">
+                <img src="Images/Shop/products/b2.jpg" alt="">
+                <div class="des">
+                    <span>Coton King</span>
+                    <h5>Dark Blue Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star"></i>
+                       
+                    </div>
+                    <h4>$94</h4>   
+                </div>
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping cart"></i>
+                </a>
+            </div>
+
+            <!-------------------------------------- Product 3  ----------------------------->
+
+            <div class="pro">
+                <img src="Images/Shop/products/b3.jpg" alt="">
+                <div class="des">
+                    <span>Coton King</span>
+                    <h5>Light Blue Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                       
+                    </div>
+                    <h4>$93</h4>   
+                </div>
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping cart"></i>
+                </a>
+            </div>
+
+            <!-------------------------------------- Product 4  ----------------------------->
+
+            <div class="pro">
+                <img src="Images/Shop/products/b4.jpg" alt="">
+                <div class="des">
+                    <span>Coton King</span>
+                    <h5>Light Grey Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                       
+                    </div>
+                    <h4>$90</h4>   
+                </div>
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping cart"></i>
+                </a>
+            </div>
+
+            <!-------------------------------------- Product 5  ----------------------------->
+
+            <div class="pro">
+                <img src="Images/Shop/products/b5.jpg" alt="">
+                <div class="des">
+                    <span>Coton King</span>
+                    <h5>Neavy Blue Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                       
+                    </div>
+                    <h4>$89</h4>   
+                </div>
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping cart"></i>
+                </a>
+            </div>
+
+            <!-------------------------------------- Product 6  ----------------------------->
+
+            <div class="pro">
+                <img src="Images/Shop/products/b6.jpg" alt="">
+                <div class="des">
+                    <span>Coton King</span>
+                    <h5>Light Orange Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                       
+                    </div>
+                    <h4>$85</h4>   
+                </div>
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping cart"></i>
+                </a>
+            </div>
+
+            <!-------------------------------------- Product 7  ----------------------------->
+
+            <div class="pro">
+                <img src="Images/Shop/products/b7.jpg" alt="">
+                <div class="des">
+                    <span>Coton King</span>
+                    <h5>Light Green Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>                        
+                        <i class="fas fa-star"></i>
+                       
+                    </div>
+                    <h4>$78</h4>   
+                </div>
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping cart"></i>
+                </a>
+            </div>
+
+            <!-------------------------------------- Product 8  ----------------------------->
+
+            <div class="pro">
+                <img src="Images/Shop/products/b8.jpg" alt="">
+                <div class="des">
+                    <span>Coton King</span>
+                    <h5>Formal Cream Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>                        
+                        <i class="fas fa-star"></i>
+                       
+                    </div>
+                    <h4>$92</h4>   
+                </div>
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping cart"></i>
+                </a>
+            </div>
+            <!-------------------------------------- Product 9  ----------------------------->
+
+            <div class="pro">
+                <img src="Images/Shop/products/b9.jpg" alt="">
+                <div class="des">
+                    <span>Blackberrys</span>
+                    <h5>Full Sleeve Slim Fit Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                    
+                    </div>
+                    <h4>$120</h4>   
+                </div>
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping cart"></i>
+                </a>
+            </div>
+
+            <!-------------------------------------- Product 10  ----------------------------->
+
+            <div class="pro">
+                <img src="Images/Shop/products/b10.jpg" alt="">
+                <div class="des">
+                    <span>Blackberrys</span>
+                    <h5>Full Sleeve Slim Fit Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star"></i>
+                    
+                    </div>
+                    <h4>$90</h4>   
+                </div>
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping cart"></i>
+                </a>
+            </div>
+
+            <!-------------------------------------- Product 11  ----------------------------->
+
+            <div class="pro">
+                <img src="Images/Shop/products/b4.jpg" alt="">
+                <div class="des">
+                    <span>Blackberrys</span>
+                    <h5>Full Sleeve Slim Fit Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                    
+                    </div>
+                    <h4>$100</h4>   
+                </div>
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping cart"></i>
+                </a>
+            </div>
+
+            <!-------------------------------------- Product 12  ----------------------------->
+
+            <div class="pro">
+                <img src="Images/Shop/products/b7.jpg" alt="">
+                <div class="des">
+                    <span>Blackberrys</span>
+                    <h5>Full Sleeve Slim Fit Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                    
+                    </div>
+                    <h4>$95</h4>   
+                </div>
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping cart"></i>
+                </a>
+            </div>
+
+            <!-------------------------------------- Product 13  ----------------------------->
+
+            <div class="pro">
+                <img src="Images/Shop/products/b1.jpg" alt="">
+                <div class="des">
+                    <span>Blackberrys</span>
+                    <h5>Full Sleeve Slim Fit Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                    
+                    </div>
+                    <h4>$98</h4>   
+                </div>
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping cart"></i>
+                </a>
+            </div>
+
+            <!-------------------------------------- Product 14  ----------------------------->
+
+            <div class="pro">
+                <img src="Images/Shop/products/b9.jpg" alt="">
+                <div class="des">
+                    <span>Blackberrys</span>
+                    <h5>Full Sleeve Slim Fit Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                    
+                    </div>
+                    <h4>$92</h4>   
+                </div>
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping cart"></i>
+                </a>
+            </div>
+
+            <!-------------------------------------- Product 15  ----------------------------->
+
+            <div class="pro">
+                <img src="Images/Shop/products/b3.jpg" alt="">
+                <div class="des">
+                    <span>Blackberrys</span>
+                    <h5>Full Sleeve Slim Fit Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>                        
+                        <i class="fas fa-star"></i>
+                    
+                    </div>
+                    <h4>$96</h4>   
+                </div>
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping cart"></i>
+                </a>
+            </div>
+
+            <!-------------------------------------- Product 16  ----------------------------->
+
+            <div class="pro">
+                <img src="Images/Shop/products/b8.jpg" alt="">
+                <div class="des">
+                    <span>Blackberrys</span>
+                    <h5>Urban Full Sleeve Slim Fit Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>                        
+                        <i class="fas fa-star"></i>
+                    
+                    </div>
+                    <h4>$110</h4>   
+                </div>
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping cart"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+<!-- ====================================  Pagenation Section ====================================  -->
+
+    <section id="pagination" class="section-p1">
+        <a href="/shop.html">1</a>
+        <a href="/page2.html">2</a>
+        <a href="/shop.html"><i class="fa-solid fa-arrow-left"></i></a>
+    </section>
+<!-- ==================================== News Letter Section ====================================  -->
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up for our newsletter</h4>
+            <p>Get E-mail updates about our <span>latest collections</span> and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Enter your e-mail address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+<!-- ==================================== footer Section ====================================  -->
+
+    <footer class="section-p1">
+        <div class="col" >
+            <!-- <a href="#">
+                <h3 class="logo">Logo.</h3>
+            </a> -->
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>7, Lok Kalyan Marg, New Delhi, India </p>
+            <p><strong>Phone: </strong> +01 4444-897 / +91 78542-12521 </p>
+            <p><strong>Hourse: </strong> 10:00 - 18:00. Mon - Sat </p>
+
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About US</a>
+            <a href="#">Delivery Info</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact US</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Whishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="Images/pay/app.jpg" alt="app store">
+                <img src="Images/pay/play.jpg" alt="play store">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="Images/pay/pay.png" alt="pay img">
+        </div>  
+        
+        <div class="copyright">
+            <p>@ 2023, All Rights are reserved by <strong>Rahul Ovhal.</strong> </p>
+        </div>
+    </footer>
+<!-- ==================================== Header Section ====================================  -->
+<!-- ==================================== Header Section ====================================  -->
+<!-- ==================================== Header Section ====================================  -->
+    
+
+    <!-- Main JS File  -->
+    <script src="script.js"></script>
+</body>
+</html>
